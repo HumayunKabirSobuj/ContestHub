@@ -25,19 +25,81 @@ admin2580@gmail.com
 Admin2580
 
 
-## Features
 
-- User Login or Register Here
-- Creator Post Any Type Of Contests
-- When Creator Post contest firstly admin need to approved 
-- If admin not approved contest not availlable to the all contest page
-- creator edit or delete her contest before admin approved
-- creator could not edit or delete her contest after admin approved
+## Technologies
+#### Frontend:
 
-- admin can block or unblock any User
+- React
+- Tailwind CSS 
+- Daisy UI 
+- React-datepicker -
+- Tanstack Query
+-  AOS 
+- React-hook-form 
+- Sweet Alert.
+#### Backend:
 
-- if admin block any user he could not add contest 
+- Node.js 
+- Express.js, 
+- MongoDB
 
-- user register any type of contest from all contest page after clicking register button he show payment system page
+#### Hosting:
 
-- creator could not register his own posted contest
+- Firebase (frontend) 
+- Vercel (backend)
+
+
+
+# Features
+#### Visual Design:
+
+- Pleasing color contrast, proper alignment, and customizable components.
+#### Content and Functionality:
+
+- Contest creation and winner selection. Dynamic user interface and personalized content.
+
+
+#### Home: 
+- Navbar with profile dropdown, search bar, popular contests, advertisement, best creators, footer, 404 error page.
+
+#### All Contests: 
+- Admin-approved contests.
+#### Contest Details: 
+- Participation info, registration.
+#### Role Management:
+
+- Admin: Approve contests and manage users.
+- Creator: Add/update contests and declare winners.
+- User: Participate in contests and update profile.
+#### Dashboards:
+
+- User, Creator, and Admin dashboards.
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  https://github.com/HumayunKabirSobuj/ContestHub.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
