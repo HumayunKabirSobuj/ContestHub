@@ -82,7 +82,7 @@ Admin2580
 Clone the project
 
 ```bash
-  https://github.com/HumayunKabirSobuj/ContestHub.git
+  git clone https://github.com/HumayunKabirSobuj/ContestHub.git
 ```
 
 Go to the project directory
